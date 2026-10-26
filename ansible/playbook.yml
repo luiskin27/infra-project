@@ -23,3 +23,7 @@
       ansible.builtin.package:
         name: curl
         state: present
+    - name: Install curl
+      ansible.builtin.package:
+        name: curl
+        state: present
