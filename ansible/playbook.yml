@@ -19,3 +19,7 @@
         name: nginx
         state: started
         enabled: true
+    - name: Install curl
+      ansible.builtin.package:
+        name: curl
+        state: present
